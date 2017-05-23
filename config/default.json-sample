@@ -1,0 +1,5 @@
+{
+    "securityId" : "abc123abc123abc123",
+    "ip" : "192.168.2.213",
+    "coapClientPath" : "/home/user/libcoap/examples/coap-client"
+}
