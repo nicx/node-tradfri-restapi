@@ -19,7 +19,7 @@ Setup libcoap as explained below
 
  1. Setup libcoap as explained below
  2. Rename `./config/default.json-sample` to `./config/default.json` and update with the IKEA hub information
- 3. Run using node 7.x 
+ 3. Run using node >7.6 
 
 Compiling libcoap
 ---
