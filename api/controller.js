@@ -19,7 +19,7 @@ exports.getDeviceIds = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
@@ -36,7 +36,7 @@ exports.getDevices = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
@@ -52,7 +52,7 @@ exports.getGroupIds = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
@@ -69,7 +69,7 @@ exports.getGroups = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
@@ -93,7 +93,7 @@ exports.setDevice = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
@@ -116,7 +116,7 @@ exports.setGroup = function (req, res) {
     } catch (err) {
         res.json({
             items: [],
-            status: err
+            status: "err"
         });
     }
 }
