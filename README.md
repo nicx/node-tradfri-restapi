@@ -2,7 +2,7 @@
 
 What
 ---
-A simple REST-API implementation of [node-tradfri](https://www.npmjs.com/package/node-tradfri) with the following commands
+A simple REST-API implementation of [node-tradfri-argon](https://www.npmjs.com/package/node-tradfri-argon) with the following commands
 
  - `/tradfri/deviceids` will provide an array of device ids
  - `/tradfri/groupids` will provide an array of group ids
@@ -19,7 +19,7 @@ Setup libcoap as explained below
 
  1. Setup libcoap as explained below
  2. Rename `./config/default.json-sample` to `./config/default.json` and update with the IKEA hub information
- 3. Run using node >7.6 
+ 3. Run using node >4.4.7
 
 Compiling libcoap
 ---

@@ -6,13 +6,13 @@
   "dependencies": {
     "config": "^1.26.1",
     "express": "^4.15.3",
-    "node-tradfri": "^0.1.2"
+    "node-tradfri-argon": "^1.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
   },
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=4.4.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
