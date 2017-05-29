@@ -1,6 +1,6 @@
 {
   "name": "node-tradfri-restapi",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Wrapper to node-tradfri package as a REST-api",
   "main": "index.js",
   "dependencies": {
