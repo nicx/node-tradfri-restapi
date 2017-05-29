@@ -35,6 +35,7 @@ $ git checkout dtls
 $ git submodule update --init --recursive
 $ ./autogen.sh
 $ ./configure --disable-documentation --disable-shared
-$ make```
+$ make
+```
 
 You'll find the coap-client binary in `./examples`
