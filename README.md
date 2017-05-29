@@ -1,4 +1,4 @@
-# node-tradfri-restapi [![npm version](https://badge.fury.io/js/node-tradfri-restapi.svg)](https://badge.fury.io/js/node-tradfri-restapi)
+# Node TRÅDFRI REST-API [![npm version](https://badge.fury.io/js/node-tradfri-restapi.svg)](https://badge.fury.io/js/node-tradfri-restapi)
 
 What
 ---
