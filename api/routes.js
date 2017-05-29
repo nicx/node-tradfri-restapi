@@ -12,6 +12,8 @@ module.exports = function(app) {
 		.get(controller.getGroupIds);
 	app.route('/tradfri/groups')
 		.get(controller.getGroups);
+	app.route('/tradfri/all')
+		.get(controller.getAll);
     app.route('/tradfri/device/:deviceId/:state')
         .get(controller.setDevice);
     app.route('/tradfri/group/:groupId/:state')
