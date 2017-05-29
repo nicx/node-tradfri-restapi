@@ -7,7 +7,8 @@ A simple REST-API implementation of [node-tradfri-argon](https://www.npmjs.com/p
  - `/tradfri/deviceids` will provide an array of device ids
  - `/tradfri/groupids` will provide an array of group ids
  - `/tradfri/devices` will provide a full list of all devices including meta data
- - `/tradfri/groups` will provide a full list of all groups including devices and meta data
+ - `/tradfri/groups` will provide a full list of all groups including devices id's and meta data
+ - `/tradfri/all` will provide a full detailed list of groups and devices
  - `/tradfri/device/:deviceid/:state` will set the state of a device (on/off). E.g. /tradfri/device/17101/on
  -  `/tradfri/group/:groupid/:state` will set the state of a device (on/off). E.g. /tradfri/device/11007/off
 
