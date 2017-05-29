@@ -1,6 +1,6 @@
 {
   "name": "node-tradfri-restapi",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Wrapper to node-tradfri-argon package as a micro service/REST API to read and control IKEA TRÅDFRI Lights",
   "main": "index.js",
   "dependencies": {
