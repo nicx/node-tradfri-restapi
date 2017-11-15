@@ -18,4 +18,6 @@ module.exports = function(app) {
         .get(controller.setDevice);
     app.route('/tradfri/group/:groupId/:state')
         .get(controller.setGroup);
+	app.route('/tradfri/register')
+        .get(controller.register);
 };

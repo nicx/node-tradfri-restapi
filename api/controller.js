@@ -4,8 +4,16 @@ var config = require("config");
 const tradfri = require('node-tradfri-argon').create({
     coapClientPath: config.coapClientPath,
     securityId: config.securityId,
-    hubIpAddress: config.ip
+    identity: config.identity,
+    hubIpAddress: config.hubIpAddress,
+    preshared_key: config.preshared_key
 });
+
+exports.register = function (req, res) {
+	tradfri.register().then(resp => {
+      tradfri.setPresharedKey(resp.preshared_key);
+  	});
+}
 
 exports.getDeviceIds = function (req, res) {
     tradfri.getDeviceIds().then(deviceIds => {

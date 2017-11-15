@@ -1,6 +1,8 @@
 {
     "securityId" : "abc123abc123abc123",
-    "ip" : "192.168.2.213",
-    "coapClientPath" : "/home/user/libcoap/examples/coap-client",
+    "hubIpAddress" : "192.168.0.8",
+    "identity" : "ClientName",
+    "preshared_key" : "asdfasdfasdfasdf"," 
+    "coapClientPath" : "/usr/local/bin/coap-client",
     "port" : 3000
 }

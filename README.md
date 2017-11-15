@@ -4,6 +4,7 @@ What
 ---
 A simple REST-API implementation of [node-tradfri-argon](https://www.npmjs.com/package/node-tradfri-argon) with the following commands
 
+ - `/tradfri/register` will register to Tradfri Gateway and generate PSK
  - `/tradfri/deviceids` will provide an array of device ids
  - `/tradfri/groupids` will provide an array of group ids
  - `/tradfri/devices` will provide a full list of all devices including meta data
@@ -21,6 +22,7 @@ Setup libcoap as explained below
  1. Setup libcoap as explained below
  2. Rename `./config/default.json-sample` to `./config/default.json` and update with the IKEA hub information
  3. Run using node >4.4.7
+ 4. Register identity and put returned PSK to config
 
 Compiling libcoap
 ---

@@ -1,12 +1,12 @@
 {
   "name": "node-tradfri-restapi",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Wrapper to node-tradfri-argon package as a micro service/REST API to read and control IKEA TRÅDFRI Lights",
   "main": "index.js",
   "dependencies": {
     "config": "^1.26.1",
     "express": "^4.15.3",
-    "node-tradfri-argon": "^1.0.1"
+    "node-tradfri-argon": "^1.1.2"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nidayand/node-tradfri-restapi.git"
+    "url": "git+https://github.com/timokli/node-tradfri-restapi.git"
   },
   "keywords": [
     "ikea",
@@ -30,10 +30,10 @@
     "rest",
     "api"
   ],
-  "author": "Nidayand",
+  "author": "timokli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nidayand/node-tradfri-restapi/issues"
+    "url": "https://github.com/timokli/node-tradfri-restapi/issues"
   },
-  "homepage": "https://github.com/nidayand/node-tradfri-restapi#readme"
+  "homepage": "https://github.com/timokli/node-tradfri-restapi#readme"
 }
