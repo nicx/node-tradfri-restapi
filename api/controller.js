@@ -10,9 +10,17 @@ const tradfri = require('node-tradfri-argon').create({
 });
 
 exports.register = function (req, res) {
-	tradfri.register().then(resp => {
-      tradfri.setPresharedKey(resp.preshared_key);
-  	});
+	tradfri.register().then(key => {
+	    res.json({
+	        items: key,
+            status: "ok"
+        });
+    }).catch((err) => {
+        res.json({
+            items: [],
+            status: "err"
+        });
+    });
 }
 
 exports.getDeviceIds = function (req, res) {

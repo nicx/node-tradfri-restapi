@@ -4,8 +4,8 @@
   "description": "Wrapper to node-tradfri-argon package as a micro service/REST API to read and control IKEA TRÅDFRI Lights",
   "main": "index.js",
   "dependencies": {
-    "config": "^1.26.1",
-    "express": "^4.15.3",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
     "node-tradfri-argon": "^1.1.2"
   },
   "devDependencies": {

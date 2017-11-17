@@ -2,7 +2,7 @@
     "securityId" : "abc123abc123abc123",
     "hubIpAddress" : "192.168.0.8",
     "identity" : "ClientName",
-    "preshared_key" : "asdfasdfasdfasdf"," 
+    "preshared_key" : "asdfasdfasdfasdf",
     "coapClientPath" : "/usr/local/bin/coap-client",
     "port" : 3000
 }
